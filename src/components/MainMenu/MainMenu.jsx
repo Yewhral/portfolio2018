@@ -1,14 +1,29 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import NavigationLink from '../NavigationLink/NavigationLink';
 
 class MainMenu extends Component {
     render() {
         return (
             <div className="mainMenu">
                 <ul>
-                    <li><Link to='/game'>Home</Link></li>
-                    <li><Link to='/author'>Roster</Link></li>
-                    <li><Link to='/info'>Schedule</Link></li>
+                    <li>
+                        <NavigationLink
+                            to='/game'
+                            label='game'
+                        />
+                    </li>
+                    <li>
+                        <NavigationLink
+                            to='/game22'
+                            label='game22'
+                        />
+                    </li>
+                    <li>
+                        <NavigationLink
+                            to='/gameasd'
+                            label='gameasd'
+                        />
+                    </li>
                 </ul>
             </div>
         );
