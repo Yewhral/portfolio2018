@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MenuNavigation from '../MenuNavigation/MenuNavigation';
+import MenuNavigation from '../../components/MenuNavigation/MenuNavigation';
 import styles from './MainMenu.module.scss';
 
 class MainMenu extends Component {
