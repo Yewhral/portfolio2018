@@ -1,0 +1,17 @@
+@import '../../resources/styles/colors';
+
+.menuContainer {
+  width: 40%;
+  background: $white1;
+  height: 100vh;
+  padding: 60px 5%;
+  box-sizing: border-box;
+}
+
+.navigation {
+  border-left: 2px solid;
+  height: calc(100vh - 200px);
+}
+
+
+

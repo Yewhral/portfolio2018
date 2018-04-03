@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MenuNavigation from '../../components/MenuNavigation/MenuNavigation';
+import Menu from '../../components/Menu/Menu';
 import styles from './Author.module.scss';
 
 
@@ -7,8 +7,10 @@ class Author extends Component {
     render() {
         return (
             <div className={styles.author}>
-                <MenuNavigation />
-                Author
+                <Menu />
+                <div className={styles.bg}>
+                    boxplaceholder
+                </div>
             </div>
         );
     }
