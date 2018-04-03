@@ -14,6 +14,12 @@ class MenuNavigation extends Component {
                 </li>
                 <li className={styles.listElement}>
                     <NavigationLink
+                        to='/project'
+                        label='Project details'
+                    />
+                </li>
+                <li className={styles.listElement}>
+                    <NavigationLink
                         to='/author'
                         label='Author info'
                     />
