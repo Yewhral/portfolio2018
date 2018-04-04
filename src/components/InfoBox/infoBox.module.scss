@@ -1,9 +1,9 @@
-@import '../../resources/styles/colors';
-
 .infoBox {
   border: 2px solid;
-  background: $white1;
+  background: #ffffff;
   width: 60%;
   height: 80%;
   box-sizing: border-box;
+  padding: 7% 5%;
+  font-size: 1.8rem;
 }
