@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import AuthorInfoBox from '../AuthorInfoBox/AuthorInfoBox';
-import ProjectInfoBox from '../ProjectInfoBox/ProjectInfoBox';
+import AuthorInfoBox from '../InfoBox/AuthorInfoBox';
+import ProjectInfoBox from '../InfoBox/ProjectInfoBox';
 import styles from './SideBox.module.scss';
 
 const SideBox = ({
