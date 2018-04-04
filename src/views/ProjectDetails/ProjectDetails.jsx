@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from '../../components/Menu/Menu';
+import SideBox from '../../components/SideBox/SideBox';
 import styles from './ProjectDetails.module.scss';
 
 class ProjectDetails extends Component {
@@ -7,9 +8,9 @@ class ProjectDetails extends Component {
         return (
             <div className={styles.projectDetails}>
                 <Menu />
-                <div>
-                    Project details
-                </div>
+                <SideBox
+                    screen='project'
+                />
             </div>
         );
     }
