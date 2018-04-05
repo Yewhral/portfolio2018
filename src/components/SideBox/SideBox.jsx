@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import AuthorInfoBox from '../InfoBox/AuthorInfoBox';
 import ProjectInfoBox from '../InfoBox/ProjectInfoBox';
-import menuBg from '../../resources/images/menu_bg.jpg';
 import styles from './SideBox.module.scss';
 
 class SideBox extends Component {
@@ -26,7 +25,7 @@ class SideBox extends Component {
         return (
             <div className={styles.sideBox}>
                 <img
-                    src={menuBg}
+                    src='http://res.cloudinary.com/doethe/image/upload/q_80/v1522925386/menu_bg_mrwttw.jpg'
                     alt=''
                     className={styles.image}
                     onLoad={this.handleLoaded}
