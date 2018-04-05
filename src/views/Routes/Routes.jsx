@@ -9,7 +9,7 @@ class Routes extends Component {
     render() {
         return (
             <div className="routes">
-                <Route exact path='/' component={Author}/>
+                <Route exact path='/' component={ProjectDetails}/>
                 <Route path='/author' component={Author}/>
                 <Route path='/game' component={Game}/>
                 <Route path='/project' component={ProjectDetails}/>
