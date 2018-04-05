@@ -9,10 +9,11 @@
   box-sizing: border-box;
   position: relative;
   left: -2px;
-  height: 52px;
+  height: 36px;
   width: 260px;
   display: flex;
   align-items: center;
+  margin: 5vh 0;
 
   &:first-child {
     width: 305px;
