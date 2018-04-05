@@ -1,3 +1,43 @@
 .link {
   text-decoration: none;
+  font-size: 1.8rem;
+  color: black;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
 }
+
+.linkContent {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.label {
+  padding-left: 12px;
+  width: calc(100% - 50px);
+  border: 2px solid black;
+  border-right: none;
+  display: flex;
+  align-items: center;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 26px;
+  border-color: black transparent transparent black;
+}
+
+.innerTriangle {
+  position: relative;
+  top: -24px;
+  right: 26px;
+  width: 0;
+  height: 0;
+  border: 24px solid;
+  border-color: orange transparent transparent orange;
+}
+
+

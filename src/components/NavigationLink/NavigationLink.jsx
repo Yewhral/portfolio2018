@@ -12,8 +12,13 @@ const NavigationLink = ({
         to={to}
         className={styles.link}
     >
-        <div className={styles.label}>
-            {label}
+        <div className={styles.linkContent}>
+            <div className={styles.label}>
+                {label}
+            </div>
+            <div className={styles.triangle}>
+                <div className={styles.innerTriangle}> </div>
+            </div>
         </div>
     </Link>
 );
