@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import AuthorInfoBox from '../InfoBox/AuthorInfoBox';
-import ProjectInfoBox from '../InfoBox/ProjectInfoBox';
-import styles from './SideBox.module.scss';
+import styles from './SingleProject.module.scss';
 
-class SideBox extends Component {
+class SingleProject extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,7 +17,7 @@ class SideBox extends Component {
     };
 
     render () {
-        const { screen } = this.props;
+        const { image, title, url, description } = this.props;
         const { imageLoaded } = this.state;
 
         return (
@@ -31,23 +29,24 @@ class SideBox extends Component {
                     onLoad={this.handleLoaded}
                     style={imageLoaded ? {} : {display: 'none'}}
                 />
-                {screen === 'author' ?
-                    <AuthorInfoBox />
-                    :
-                    <ProjectInfoBox />
-                }
             </div>
         )
     }
 
 }
 
-SideBox.defaultProps = {
-    screen: 'project',
+SingleProject.defaultProps = {
+    image: '',
+    title: '',
+    url: '',
+    description: '',
 };
 
-SideBox.propTypes = {
-    screen: PropTypes.string,
+SingleProject.propTypes = {
+    image: PropTypes.string,
+    title: PropTypes.string,
+    url: PropTypes.string,
+    description: PropTypes.string,
 };
 
-export default SideBox;
+export default SingleProject;
