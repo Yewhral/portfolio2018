@@ -7,4 +7,11 @@
   padding: 7% 5%;
   font-size: 1.8rem;
   z-index: 1;
+  min-width: 500px;
+}
+
+@media only screen and (max-width: 1200px){
+  .infoBox {
+    width: 80%;
+  }
 }

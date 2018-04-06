@@ -4,9 +4,10 @@ import styles from './infoBox.module.scss';
 class AuthorInfoBox extends Component {
     render() {
         return (
-            <div className={styles.infoBox}>
-                this is AUTHOR info box
-            </div>
+            <main className={styles.infoBox}>
+                <p>About me</p>
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </p>
+            </main>
         );
     }
 }

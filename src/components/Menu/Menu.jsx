@@ -9,10 +9,10 @@ class Menu extends Component {
         return (
             <div className={styles.menuContainer}>
                 <MenuHeader />
-                <div className={styles.navigation}>
+                <nav className={styles.navigation}>
                     <MenuDescription />
                     <MenuNavigation />
-                </div>
+                </nav>
             </div>
         );
     }

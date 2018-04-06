@@ -5,7 +5,8 @@ class ProjectInfoBox extends Component {
     render() {
         return (
             <div className={styles.infoBox}>
-                this is PROJECT info box
+                <p>Hello!</p>
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
             </div>
         );
     }
