@@ -7,7 +7,12 @@ class PortfolioBox extends Component {
     render () {
         const projectsList = projects.map(project => (
             <SingleProject
-
+                title={project.title}
+                image={project.image}
+                date={project.date}
+                url={project.url}
+                description={project.description}
+                key={project.title}
             />
         ));
         return (

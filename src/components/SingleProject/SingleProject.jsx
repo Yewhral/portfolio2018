@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Loader from '../Loader/Loader';
 import styles from './SingleProject.module.scss';
 
 class SingleProject extends Component {
@@ -10,6 +11,12 @@ class SingleProject extends Component {
         };
     }
 
+    componentWillMount() {
+        this.setState({
+            imageLoaded: false,
+        })
+    }
+
     handleLoaded = () => {
         this.setState({
             imageLoaded: true,
@@ -17,19 +24,30 @@ class SingleProject extends Component {
     };
 
     render () {
-        const { image, title, url, description } = this.props;
+        const { image, title, updated, url, description } = this.props;
         const { imageLoaded } = this.state;
 
         return (
-            <div className={styles.sideBox}>
-                <img
-                    src='http://res.cloudinary.com/doethe/image/upload/q_80/v1522925386/menu_bg_mrwttw.jpg'
-                    alt=''
-                    className={styles.image}
-                    onLoad={this.handleLoaded}
-                    style={imageLoaded ? {} : {display: 'none'}}
-                />
-            </div>
+            <li className={styles.singleProject}>
+                <div>
+                    <div>{title}</div>
+                    <div>{updated}</div>
+                    <div>{url}</div>
+                    <div>{description}</div>
+                </div>
+                <div className={styles.imageContainer}>
+                    {!imageLoaded &&
+                        <Loader />
+                    }
+                        <img
+                            src={image}
+                            alt=''
+                            className={styles.image}
+                            onLoad={this.handleLoaded}
+                        />
+                </div>
+
+            </li>
         )
     }
 

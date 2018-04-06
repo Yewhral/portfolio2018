@@ -1,0 +1,24 @@
+.singleProject {
+  display: flex;
+}
+
+.imageContainer {
+  height: 150px;
+  width: 200px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.image {
+  height: 150px;
+  width: 200px;
+}
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 150px;
+  background: yellow;
+}
