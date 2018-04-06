@@ -24,29 +24,40 @@ class SingleProject extends Component {
     };
 
     render () {
-        const { image, title, updated, url, description } = this.props;
+        const { image, title, date, url, displayUrl, description } = this.props;
         const { imageLoaded } = this.state;
 
         return (
             <li className={styles.singleProject}>
                 <div>
-                    <div>{title}</div>
-                    <div>{updated}</div>
-                    <div>{url}</div>
-                    <div>{description}</div>
+                    <div className={styles.titleContainer}>
+                        <div className={styles.title}>{title}</div>
+                        <div className={styles.date}>
+                            Updated at: {date}
+                         </div>
+                    </div>
+                    <div className={styles.url}>
+                        <span>Link: </span>
+                        <a
+                            href={url}
+                            className={styles.link}
+                        >
+                            {displayUrl}
+                        </a>
+                    </div>
+                    <div className={styles.description}>{description}</div>
                 </div>
                 <div className={styles.imageContainer}>
                     {!imageLoaded &&
                         <Loader />
                     }
-                        <img
-                            src={image}
-                            alt=''
-                            className={styles.image}
-                            onLoad={this.handleLoaded}
-                        />
+                    <img
+                        src={image}
+                        alt=''
+                        className={styles.image}
+                        onLoad={this.handleLoaded}
+                    />
                 </div>
-
             </li>
         )
     }
@@ -56,14 +67,18 @@ class SingleProject extends Component {
 SingleProject.defaultProps = {
     image: '',
     title: '',
+    date: '',
     url: '',
+    displayUrl: '',
     description: '',
 };
 
 SingleProject.propTypes = {
     image: PropTypes.string,
     title: PropTypes.string,
+    date: PropTypes.string,
     url: PropTypes.string,
+    displayUrl: PropTypes.string,
     description: PropTypes.string,
 };
 

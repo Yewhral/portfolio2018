@@ -21,6 +21,12 @@
   overflow: auto;
 }
 
+.list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
 @media only screen and (max-width: 1024px) {
   .portfolioContainer {
     width: calc(100% - 250px);

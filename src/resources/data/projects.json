@@ -2,43 +2,49 @@
   {
     "title": "Leasy events",
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Salzburg_from_Gaisberg_big_version.jpg",
-    "updated": "04.2018",
-    "url": "http://leasy.events",
+    "date": "04.2018",
+    "url": "https://leasy.events",
+    "displayUrl": "https://leasy.events",
     "description": "Lorem ipsum dolor sit amet project lolo nice good project lorem impsum dolor sit amet"
   },
   {
-    "title": "StructView project",
+    "title": "StructView",
     "image": "",
-    "updated": "",
-    "url": "",
+    "date": "04.2017",
+    "url": "http://public.structview.com/sv-estate-abinwestor-awanport/",
+    "displayUrl": "http://public.structview.com",
     "description": ""
   },
   {
-    "title": "Visual novel game",
+    "title": "Visual novel",
     "image": "",
-    "updated": "",
-    "url": "",
+    "date": "06.2017",
+    "url": "http://zabrzyjewski.net.pl/",
+    "displayUrl": "http://zabrzyjewski.net.pl/",
     "description": ""
   },
   {
     "title": "Pub game",
     "image": "",
-    "updated": "",
-    "url": "",
+    "date": "01.2018",
+    "url": "http://react-redux-game.surge.sh/",
+    "displayUrl": "react-redux-game",
     "description": ""
   },
   {
     "title": "Puzzles",
     "image": "",
-    "updated": "",
-    "url": "",
+    "date": "08.2017",
+    "url": "https://yewhral.github.io/vanilla.js-logic-game/",
+    "displayUrl": "vanilla.js-logic-game",
     "description": ""
   },
   {
     "title": "To-do app",
     "image": "",
-    "updated": "",
-    "url": "",
+    "date": "07.2017",
+    "url": "https://yewhral.github.io/vanilla.js-TODO-app/",
+    "displayUrl": "vanilla.js-TODO-app",
     "description": ""
   }
 ]

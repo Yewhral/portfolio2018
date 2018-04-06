@@ -1,5 +1,10 @@
 .singleProject {
   display: flex;
+  box-sizing: border-box;
+  margin: 20px auto;
+  width: 86%;
+  border: 1px solid black;
+  padding: 25px 20px;
 }
 
 .imageContainer {
@@ -7,6 +12,35 @@
   width: 200px;
   position: relative;
   border: 1px solid black;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 2.6rem;
+  font-weight: 400;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.url {
+  font-size: 2rem;
+}
+
+.link:visited {
+  color: #B35C00;
+}
+
+.description {
+  font-size: 1.6rem;
 }
 
 .image {
@@ -20,5 +54,4 @@
   left: 0;
   width: 200px;
   height: 150px;
-  background: yellow;
 }

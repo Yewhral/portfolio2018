@@ -11,6 +11,7 @@ class PortfolioBox extends Component {
                 image={project.image}
                 date={project.date}
                 url={project.url}
+                displayUrl={project.displayUrl}
                 description={project.description}
                 key={project.title}
             />
@@ -18,7 +19,7 @@ class PortfolioBox extends Component {
         return (
             <div className={styles.portfolioContainer}>
                 <main className={styles.portfolioBox}>
-                    <ul>
+                    <ul className={styles.list}>
                         { projectsList }
                     </ul>
                 </main>
