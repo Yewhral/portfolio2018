@@ -12,6 +12,23 @@
   width: 200px;
   position: relative;
   border: 1px solid black;
+  order: 2;
+  margin-left: 10px;
+}
+
+.details {
+  width: 100%;
+}
+
+.singleProject:nth-child(odd){
+  .imageContainer {
+    order: 1;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .details {
+    order: 2;
+  }
 }
 
 .titleContainer {

@@ -1,7 +1,7 @@
 [
   {
     "title": "Leasy events",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Salzburg_from_Gaisberg_big_version.jpg",
+    "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/leasy_ve4fuw.jpg",
     "date": "04.2018",
     "url": "https://leasy.events",
     "displayUrl": "https://leasy.events",
@@ -9,7 +9,7 @@
   },
   {
     "title": "StructView",
-    "image": "",
+    "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/structview_jgcomn.jpg",
     "date": "04.2017",
     "url": "http://public.structview.com/sv-estate-abinwestor-awanport/",
     "displayUrl": "http://public.structview.com",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Visual novel",
-    "image": "",
+    "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/novel_vwu9v0.jpg",
     "date": "06.2017",
     "url": "http://zabrzyjewski.net.pl/",
     "displayUrl": "http://zabrzyjewski.net.pl/",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Pub game",
-    "image": "",
+    "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/pub_awsymv.jpg",
     "date": "01.2018",
     "url": "http://react-redux-game.surge.sh/",
     "displayUrl": "react-redux-game",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Puzzles",
-    "image": "",
+    "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/puzzles_x5bchs.jpg",
     "date": "08.2017",
     "url": "https://yewhral.github.io/vanilla.js-logic-game/",
     "displayUrl": "vanilla.js-logic-game",
@@ -41,7 +41,7 @@
   },
   {
     "title": "To-do app",
-    "image": "",
+    "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/todo_uu6paz.jpg",
     "date": "07.2017",
     "url": "https://yewhral.github.io/vanilla.js-TODO-app/",
     "displayUrl": "vanilla.js-TODO-app",

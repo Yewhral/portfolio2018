@@ -29,7 +29,7 @@ class SingleProject extends Component {
 
         return (
             <li className={styles.singleProject}>
-                <div>
+                <div className={styles.details}>
                     <div className={styles.titleContainer}>
                         <div className={styles.title}>{title}</div>
                         <div className={styles.date}>
