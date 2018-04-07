@@ -20,17 +20,6 @@
   width: 100%;
 }
 
-.singleProject:nth-child(odd){
-  .imageContainer {
-    order: 1;
-    margin-right: 10px;
-    margin-left: 0;
-  }
-  .details {
-    order: 2;
-  }
-}
-
 .titleContainer {
   display: flex;
   justify-content: space-between;
