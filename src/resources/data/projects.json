@@ -1,11 +1,11 @@
 [
   {
-    "title": "Leasy events",
+    "title": "Leasy",
     "image": "http://res.cloudinary.com/doethe/image/upload/v1523052788/leasy_ve4fuw.jpg",
     "date": "04.2018",
     "url": "https://leasy.events",
     "displayUrl": "https://leasy.events",
-    "description": "Lorem ipsum dolor sit amet project lolo nice good project lorem impsum dolor sit amet"
+    "description": "Web application created to help in managing and renting different types of spaces"
   },
   {
     "title": "StructView",
@@ -13,7 +13,7 @@
     "date": "04.2017",
     "url": "http://public.structview.com/sv-estate-abinwestor-awanport/",
     "displayUrl": "http://public.structview.com",
-    "description": ""
+    "description": "An example of 3D StructView's project that I worked on"
   },
   {
     "title": "Visual novel",
@@ -21,7 +21,7 @@
     "date": "06.2017",
     "url": "http://zabrzyjewski.net.pl/",
     "displayUrl": "http://zabrzyjewski.net.pl/",
-    "description": ""
+    "description": "Visual novel game written as a portfolio in 2017"
   },
   {
     "title": "Pub game",
@@ -29,7 +29,7 @@
     "date": "01.2018",
     "url": "http://react-redux-game.surge.sh/",
     "displayUrl": "react-redux-game",
-    "description": ""
+    "description": "Game written as a practice for React and Redux"
   },
   {
     "title": "Puzzles",
@@ -37,7 +37,7 @@
     "date": "08.2017",
     "url": "https://yewhral.github.io/vanilla.js-logic-game/",
     "displayUrl": "vanilla.js-logic-game",
-    "description": ""
+    "description": "Simple and fun logic game"
   },
   {
     "title": "To-do app",
@@ -45,6 +45,6 @@
     "date": "07.2017",
     "url": "https://yewhral.github.io/vanilla.js-TODO-app/",
     "displayUrl": "vanilla.js-TODO-app",
-    "description": ""
+    "description": "DOM manipulation with JavaScript for practice"
   }
 ]

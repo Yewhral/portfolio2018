@@ -2,9 +2,9 @@
   display: flex;
   box-sizing: border-box;
   margin: 20px auto;
-  width: 86%;
   border: 1px solid black;
   padding: 25px 20px;
+  width: calc(50% - 20px);
 }
 
 .imageContainer {
@@ -47,6 +47,7 @@
 
 .description {
   font-size: 1.6rem;
+  margin-top: 6px;
 }
 
 .image {
@@ -60,4 +61,34 @@
   left: 0;
   width: 200px;
   height: 150px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .singleProject {
+    width: calc(100% - 40px);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .singleProject {
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .date {
+    font-size: 1.4rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .url {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
+  }
 }

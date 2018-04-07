@@ -25,6 +25,8 @@
   margin: 0;
   list-style-type: none;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 1024px) {
