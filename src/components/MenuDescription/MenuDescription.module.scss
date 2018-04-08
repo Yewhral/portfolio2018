@@ -9,3 +9,9 @@
   padding: 5% 0 5% 15%;
   font-size: 1.6rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .description {
+    display: none;
+  }
+}

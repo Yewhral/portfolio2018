@@ -20,3 +20,22 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .listElement,
+  .list {
+    width: 100%;
+  }
+
+  .listElement {
+    height: 45px;
+    width: calc(100% - 14px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+
+    &:first-child {
+      width: calc(100% - 14px);
+    }
+  }
+
+}
