@@ -1,8 +1,13 @@
-.menuContainer {
+.menuContent {
   width: 40%;
-  background: #ffffff;
-  height: 100vh;
   padding: 60px 5%;
+  height: 100vh;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+.menuContainer {
+  background: #ffffff;
   box-sizing: border-box;
 }
 
@@ -12,10 +17,21 @@
   min-height: 450px;
 }
 
+.hamburgerButton {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
-  .menuContainer {
+  .menuContent {
     width: 250px;
+    padding: 0;
+    height: auto;
+    background: none;
+  }
+
+  .menuContainer {
     padding: 60px 0;
+    height: 100vh;
   }
 
   .navigation {
@@ -25,5 +41,22 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .hamburgerButton {
+    display: block;
+    height: 45px;
+    width: 45px;
+    background: white;
+    border-radius: 5px;
+  }
+
+  .menuContainer {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
 
 
