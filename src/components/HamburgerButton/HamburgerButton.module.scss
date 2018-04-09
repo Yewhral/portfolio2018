@@ -1,0 +1,44 @@
+.hamburgerButton {
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .hamburgerButton {
+    display: block;
+    height: 45px;
+    width: 45px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    z-index: 3;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .burgerIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+
+    div:empty {
+      width: 60%;
+      height: 2px;
+      background: #ffa800;
+    }
+  }
+
+  .closeIcon {
+    color: #ffa800;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}

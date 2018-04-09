@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MenuDescription from '../MenuDescription/MenuDescription';
 import MenuHeader from '../MenuHeader/MenuHeader';
 import MenuNavigation from '../MenuNavigation/MenuNavigation';
+import HamburgerButton from '../HamburgerButton/HamburgerButton';
 import classNames from 'classnames';
 import styles from './Menu.module.scss';
 
@@ -23,12 +24,10 @@ class Menu extends Component {
         const { mobileVisible } = this.state;
         return (
             <div className={styles.menuContent}>
-                <button
-                    className={classNames(styles.hamburgerButton)}
+                <HamburgerButton
                     onClick={this.hamburgerClick}
-                >
-                    Hamburger
-                </button>
+                    mobileVisible={mobileVisible}
+                />
                 <div className={classNames(styles.menuContainer, mobileVisible && styles.mobile)}>
                     <MenuHeader />
                     <nav className={styles.navigation}>

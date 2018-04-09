@@ -25,8 +25,11 @@
   .menuContent {
     width: 250px;
     padding: 0;
-    height: auto;
+    height: 0;
     background: none;
+    position: sticky;
+    left: 0;
+    top: 0;
   }
 
   .menuContainer {
@@ -57,6 +60,7 @@
 
   .menuContainer {
     display: none;
+    padding: 20px 0;
   }
 
   .mobile {
@@ -71,5 +75,6 @@
 
   .menuContent {
     width: 0;
+    position: static;
   }
 }

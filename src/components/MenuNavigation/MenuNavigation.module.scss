@@ -39,3 +39,14 @@
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+  .listElement {
+    width: calc(80% - 4px);
+
+    &:first-child {
+      width: calc(80% - 4px);
+    }
+  }
+
+}

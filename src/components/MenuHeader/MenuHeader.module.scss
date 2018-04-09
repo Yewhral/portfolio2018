@@ -15,3 +15,9 @@
     width: auto;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .h1 {
+    width: calc(100% - 85px);
+  }
+}
