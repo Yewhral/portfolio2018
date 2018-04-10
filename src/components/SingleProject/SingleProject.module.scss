@@ -41,6 +41,10 @@
   font-size: 2rem;
 }
 
+.link {
+  color: #ff8c00;
+}
+
 .link:visited {
   color: #B35C00;
 }
@@ -100,6 +104,7 @@
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
     flex-direction: column;
+    margin: 15px auto;
   }
 
   .imageContainer {
