@@ -31,7 +31,7 @@ HamburgerButton.defaultProps = {
 
 HamburgerButton.propTypes = {
     onClick: PropTypes.func,
-    mobileVisible: PropTypes.boolean,
+    mobileVisible: PropTypes.bool,
 };
 
 export default HamburgerButton;
