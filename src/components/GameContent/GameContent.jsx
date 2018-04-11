@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TextBox from '../TextBox/TextBox';
-//import speeches from '../../resources/data/speeches.json';
+import speechesData from '../../resources/data/speeches.json';
 import styles from './GameContent.module.scss';
 
 class GameContent extends Component {
@@ -9,7 +9,7 @@ class GameContent extends Component {
         this.state = {
             background: '',
             currentSpeech: {
-                id: '',
+                id: 0,
                 text: '',
                 name: '',
                 pic: '',
@@ -20,31 +20,15 @@ class GameContent extends Component {
     }
 
     componentWillMount() {
-        const allSpeeches = [
-            {   id: 0,
-                text: 'jeden',
-                name: '',
-                pic: '',
-            },
-            {   id: 1,
-                text: 'dwa',
-                name: '',
-                pic: '',
-            },
-            {   id: 2,
-                text: 'trzy',
-                name: '',
-                pic: '',
-            },
-        ];
+        const allSpeeches = speechesData;
         this.setState({
             speeches: allSpeeches,
         }, () => {
             this.setState({
                 currentSpeech: this.state.speeches[0]
-            })
-        })
-    }
+            });
+        });
+    };
 
     showNextSpeech = () => {
       const { speeches, currentSpeech } = this.state;
@@ -52,7 +36,7 @@ class GameContent extends Component {
           const nextSpeech = speeches[currentSpeech.id + 1];
           this.setState({
               currentSpeech: nextSpeech,
-          })
+          });
       }
     };
 
