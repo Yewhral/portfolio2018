@@ -41,7 +41,7 @@ class GameContent extends Component {
     };
 
     render() {
-        const { currentSpeech } = this.state;
+        const { currentSpeech, speeches } = this.state;
         return (
             <div
                 className={styles.gameContent}
@@ -50,6 +50,7 @@ class GameContent extends Component {
                 GameBG
                 <TextBox
                     currentSpeech={currentSpeech}
+                    speeches={speeches}
                 />
             </div>
         );

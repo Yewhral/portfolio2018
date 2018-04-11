@@ -1,25 +1,49 @@
 [
   {
     "id": 0,
-    "text": "jeden",
+    "text": "zero",
     "name": "imie",
     "pic": ""
   },
   {
     "id": 1,
-    "text": "dwa",
+    "text": "jeden",
     "name": "dymek",
     "pic": ""
   },
   {
     "id": 2,
-    "text": "trzy",
+    "text": "dwa",
     "name": "imie2",
     "pic": ""
   },
   {
     "id": 3,
+    "text": "trzy",
+    "name": "dymek2",
+    "pic": ""
+  },
+  {
+    "id": 4,
     "text": "cztery",
+    "name": "imie",
+    "pic": ""
+  },
+  {
+    "id": 5,
+    "text": "piec",
+    "name": "dymek",
+    "pic": ""
+  },
+  {
+    "id": 6,
+    "text": "szesc",
+    "name": "imie2",
+    "pic": ""
+  },
+  {
+    "id": 7,
+    "text": "siedem",
     "name": "dymek2",
     "pic": ""
   }
