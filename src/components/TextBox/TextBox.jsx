@@ -11,18 +11,32 @@ class TextBox extends Component {
 
     lol = (e) => {
         e.stopPropagation();
-      alert('nielol');
+        alert('nielol');
     };
 
     render() {
+        const { photo, name, text } = this.props.currentSpeech;
         return (
             <div className={styles.boxContainer}>
-                <div>
-                    <div>obrazek</div>
-                    <div>name</div>
+                <div className={styles.speechOwner}>
+                    <div className={styles.photo}>
+                        {photo}
+                    </div>
+                    <div className={styles.name}>
+                        {name}
+                    </div>
                 </div>
-                <div>{this.props.currentSpeech.text}</div>
-                <button onClick={this.lol}>navigation</button>
+                <div className={styles.speechContent}>
+                    <div>
+                        {text}
+                    </div>
+                    <button
+                        className={styles.navigation}
+                        onClick={this.lol}
+                    >
+                        navigation
+                    </button>
+                </div>
             </div>
         );
     }

@@ -2,25 +2,25 @@
   {
     "id": 0,
     "text": "jeden",
-    "name": "",
+    "name": "imie",
     "pic": ""
   },
   {
     "id": 1,
     "text": "dwa",
-    "name": "",
+    "name": "dymek",
     "pic": ""
   },
   {
     "id": 2,
     "text": "trzy",
-    "name": "",
+    "name": "imie2",
     "pic": ""
   },
   {
     "id": 3,
     "text": "cztery",
-    "name": "",
+    "name": "dymek2",
     "pic": ""
   }
 ]

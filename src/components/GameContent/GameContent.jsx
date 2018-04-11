@@ -47,7 +47,7 @@ class GameContent extends Component {
                 className={styles.gameContent}
                 onClick={this.showNextSpeech}
             >
-                Game
+                GameBG
                 <TextBox
                     currentSpeech={currentSpeech}
                 />
