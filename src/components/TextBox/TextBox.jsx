@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Backlog from '../Backlog/Backlog';
 import styles from './TextBox.module.scss';
 
 class TextBox extends Component {
@@ -41,8 +42,9 @@ class TextBox extends Component {
         const { photo, name, text } = this.props.currentSpeech;
         const { backlog, backlogVisible } = this.state;
         const backlogContent = backlog.map(speech => (
-            <li>
-                {speech.name}: {speech.text}
+            <li className={styles.backlogMessage}>
+                <span>{speech.name}</span>
+                <span>: {speech.text}</span>
             </li>
         ));
 
@@ -64,7 +66,7 @@ class TextBox extends Component {
                         className={styles.navigation}
                         onClick={this.toggleBacklog}
                     >
-                        navigation
+                        backlog
                     </button>
                 </div>
                 {backlogVisible &&
@@ -72,11 +74,9 @@ class TextBox extends Component {
                         className={styles.backlogWrapper}
                         onClick={this.toggleBacklog}
                     >
-                        <div className={styles.backlogBox}>
-                            <ul className={styles.backlogList}>
-                                {backlogContent}
-                            </ul>
-                        </div>
+                        <Backlog
+                            backlogContent={backlogContent}
+                        />
                     </div>
                 }
             </div>
