@@ -21,7 +21,7 @@ class TextBox extends Component {
                     <div>obrazek</div>
                     <div>name</div>
                 </div>
-                <div>text</div>
+                <div>{this.props.currentSpeech.text}</div>
                 <button onClick={this.lol}>navigation</button>
             </div>
         );
