@@ -54,14 +54,10 @@ class TextBox extends Component {
                     <div className={styles.photo}>
                         {photo}
                     </div>
-                    <div className={styles.name}>
-                        {name}
-                    </div>
+                    <div className={styles.name}>{name}</div>
                 </div>
                 <div className={styles.speechContent}>
-                    <div>
-                        {text}
-                    </div>
+                    <div>{text}</div>
                     <button
                         className={styles.navigation}
                         onClick={this.toggleBacklog}

@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import GameBackground from '../GameBackground/GameBackground';
 import TextBox from '../TextBox/TextBox';
 import speechesData from '../../resources/data/speeches.json';
+import image from '../../resources/images/menu_bg_low.jpg';
 import styles from './GameContent.module.scss';
 
 class GameContent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            background: '',
+            background: image,
             currentSpeech: {
                 id: 0,
                 text: '',
@@ -41,17 +43,19 @@ class GameContent extends Component {
     };
 
     render() {
-        const { currentSpeech, speeches } = this.state;
+        const { currentSpeech, speeches, background } = this.state;
         return (
             <div
                 className={styles.gameContent}
                 onClick={this.showNextSpeech}
             >
-                GameBG
+                <GameBackground
+                    background={background}
+                />
                 <TextBox
                     currentSpeech={currentSpeech}
                     speeches={speeches}
-                />
+                 />
             </div>
         );
     }
