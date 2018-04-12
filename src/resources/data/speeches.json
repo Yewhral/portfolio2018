@@ -3,48 +3,48 @@
     "id": 0,
     "text": "zero",
     "name": "imie",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 1,
     "text": "jeden",
     "name": "dymek",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 2,
     "text": "dwa",
     "name": "imie2",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 3,
     "text": "trzy",
     "name": "dymek2",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 4,
     "text": "cztery",
     "name": "imie",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 5,
     "text": "piec",
     "name": "dymek",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 6,
     "text": "szesc",
     "name": "imie2",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   },
   {
     "id": 7,
     "text": "siedem",
     "name": "dymek2",
-    "pic": ""
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1513440951/olives_dzkjix.svg"
   }
 ]

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Backlog from '../Backlog/Backlog';
 import styles from './TextBox.module.scss';
 
@@ -51,9 +52,11 @@ class TextBox extends Component {
         return (
             <div className={styles.boxContainer}>
                 <div className={styles.speechOwner}>
-                    <div className={styles.photo}>
-                        {photo}
-                    </div>
+                    <img
+                        className={styles.photo}
+                        src={photo}
+                        alt=''
+                    />
                     <div className={styles.name}>{name}</div>
                 </div>
                 <div className={styles.speechContent}>
@@ -81,3 +84,15 @@ class TextBox extends Component {
 }
 
 export default TextBox;
+
+TextBox.defaultProps = {
+    photo: '',
+    name: '',
+    text: '',
+};
+
+TextBox.propTypes = {
+    photo: PropTypes.string,
+    name: PropTypes.string,
+    text: PropTypes.string,
+};
