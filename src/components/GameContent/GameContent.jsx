@@ -21,7 +21,6 @@ class GameContent extends Component {
             },
             speeches: speechesData,
             loaderVisible: true,
-
         };
     }
 

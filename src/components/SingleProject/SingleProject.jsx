@@ -11,12 +11,6 @@ class SingleProject extends Component {
         };
     }
 
-    componentWillMount() {
-        this.setState({
-            imageLoaded: false,
-        })
-    }
-
     handleLoaded = () => {
         this.setState({
             imageLoaded: true,
