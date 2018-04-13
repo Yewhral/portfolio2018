@@ -5,7 +5,7 @@ import GameLoader from '../Loader/GameLoader';
 import TextBox from '../TextBox/TextBox';
 import speechesData from '../../resources/data/speeches.json';
 import image from '../../resources/images/menu_bg_low.jpg';
-import images from '../../resources/data/images';
+import allImages from '../../resources/data/images';
 import styles from './GameContent.module.scss';
 
 class GameContent extends Component {
@@ -15,30 +15,22 @@ class GameContent extends Component {
             background: image,
             currentSpeech: {
                 id: 0,
-                text: '',
-                name: '',
+                text: 'zero',
+                name: 'imieee',
                 pic: '',
             },
-            speeches: [],
+            speeches: speechesData,
             loaderVisible: true,
 
         };
     }
 
     componentDidMount() {
-        const allImages = images;
-        const allSpeeches = speechesData;
-        this.setState({
-            speeches: allSpeeches,
-        }, () => {
-            this.setState({
-                currentSpeech: this.state.speeches[0]
-            });
-        });
         prefetchImages(allImages)
             .then(() => {
                 this.setState({
                     loaderVisible: false,
+                    currentSpeech: this.state.speeches[0],
                 });
             });
     }
