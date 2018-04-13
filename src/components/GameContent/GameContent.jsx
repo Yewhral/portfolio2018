@@ -25,7 +25,8 @@ class GameContent extends Component {
         };
     }
 
-    componentWillMount() {
+    componentDidMount() {
+        const allImages = images;
         const allSpeeches = speechesData;
         this.setState({
             speeches: allSpeeches,
@@ -34,10 +35,6 @@ class GameContent extends Component {
                 currentSpeech: this.state.speeches[0]
             });
         });
-    };
-
-    componentDidMount() {
-        const allImages = images;
         prefetchImages(allImages)
             .then(() => {
                 this.setState({

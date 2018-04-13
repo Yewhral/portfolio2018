@@ -3,7 +3,7 @@ import styles from './Loader.module.scss';
 
 const GameLoader = () => (
     <div className={styles.gameLoaderBackground}>
-        <div> Loading... </div>
+        <div className={styles.gameLoaderText}>Loading...</div>
         <div className={styles.gameLoader}></div>
     </div>
 );

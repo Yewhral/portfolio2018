@@ -28,6 +28,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  flex-direction: column;
+}
+
+.gameLoaderText {
+  font-size: 5rem;
+  margin-bottom: 40px;
 }
 
 .gameLoader {
