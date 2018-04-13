@@ -12,8 +12,9 @@ export default
 
         // male recruiter
             'http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg',
-            'http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg'
+            'http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg',
 
     // backgrounds
+        'http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg'
 
 ];

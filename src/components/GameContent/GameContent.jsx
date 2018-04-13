@@ -4,7 +4,7 @@ import GameBackground from '../GameBackground/GameBackground';
 import GameLoader from '../Loader/GameLoader';
 import TextBox from '../TextBox/TextBox';
 import speechesData from '../../resources/data/speeches.json';
-import image from '../../resources/images/menu_bg_low.jpg';
+import image from '../../resources/images/asd.jpg';
 import allImages from '../../resources/data/images';
 import styles from './GameContent.module.scss';
 
