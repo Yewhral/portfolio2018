@@ -4,7 +4,6 @@ import GameBackground from '../GameBackground/GameBackground';
 import GameLoader from '../Loader/GameLoader';
 import TextBox from '../TextBox/TextBox';
 import speechesData from '../../resources/data/speeches.json';
-import image from '../../resources/images/asd.jpg';
 import allImages from '../../resources/data/images';
 import styles from './GameContent.module.scss';
 
@@ -12,12 +11,12 @@ class GameContent extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            background: image,
             currentSpeech: {
                 id: 0,
                 text: 'zero',
                 name: 'imieee',
                 pic: '',
+                background: '',
             },
             speeches: speechesData,
             loaderVisible: true,
@@ -30,6 +29,7 @@ class GameContent extends Component {
                 this.setState({
                     loaderVisible: false,
                     currentSpeech: this.state.speeches[0],
+                    allImages,
                 });
             });
     }
@@ -45,7 +45,7 @@ class GameContent extends Component {
     };
 
     render() {
-        const { currentSpeech, speeches, background, loaderVisible } = this.state;
+        const { currentSpeech, speeches, loaderVisible } = this.state;
         return (
             <div
                 className={styles.gameContent}
@@ -55,7 +55,7 @@ class GameContent extends Component {
                     <GameLoader />
                 }
                 <GameBackground
-                    background={background}
+                    background={currentSpeech.background}
                 />
                 <TextBox
                     currentSpeech={currentSpeech}
