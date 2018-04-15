@@ -91,28 +91,20 @@ class TextBox extends Component {
                     </button>
                 </div>
                 {backlogVisible &&
-                        <Backlog
-                            onClick={this.toggleBacklog}
-                            backlogContent={backlogContent}
-                        />
+                    <Backlog
+                        onClick={this.toggleBacklog}
+                        backlogContent={backlogContent}
+                    />
                 }
                 {exitModalVisible &&
-                    <div
-                        className={styles.backlogWrapper}
-                        onClick={this.disableClick}
-                    >
-                        <button
-                            onClick={this.toggleReturnModal}
-                        >
-                            YEWuhfewuhfhPUHOIGoiyGOIGHOIGHoiuyGOIUYGOIUYGIU
-                        </button>
-                        <Link
-                            to='/'
-                            className={styles.big}
-                        >
-                            GO BACK OKOKOKSOAOIJHSDOAIHOI
-                        </Link>
-                    </div>
+                    <QuestionModal
+                        question="Do you want to go back to the main screen?"
+                        outerOnClick={this.disableClick}
+                        button1OnClick={this.toggleReturnModal}
+                        button1Text="No, stay"
+                        LinkText="Yes, go back"
+                        to="/"
+                    />
                 }
             </main>
         );
