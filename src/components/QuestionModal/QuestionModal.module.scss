@@ -21,4 +21,23 @@
 .question {
   font-size: 3.2rem;
   max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 2rem;
+  font-weight: bold;
+  background: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px 0;
+
+  &:hover {
+
+  }
 }
