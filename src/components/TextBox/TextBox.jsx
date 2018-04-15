@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Backlog from '../Backlog/Backlog';
+import QuestionModal from '../QuestionModal/QuestionModal';
 import styles from './TextBox.module.scss';
 
 class TextBox extends Component {
@@ -9,6 +10,7 @@ class TextBox extends Component {
         this.state = {
             backlog: [],
             backlogVisible: false,
+            exitModalVisible: false,
         };
     }
 
@@ -39,9 +41,21 @@ class TextBox extends Component {
         });
     };
 
+    toggleReturnModal = (e) => {
+        e.stopPropagation();
+        const {exitModalVisible} = this.state;
+        this.setState({
+            exitModalVisible: !exitModalVisible,
+        });
+    };
+
+    disableClick = (e) => {
+        e.stopPropagation();
+    };
+
     render() {
         const { photo, name, text } = this.props.currentSpeech;
-        const { backlog, backlogVisible } = this.state;
+        const { backlog, backlogVisible, exitModalVisible } = this.state;
         const backlogContent = backlog.map(speech => (
             <li
                 className={styles.backlogMessage}
@@ -70,16 +84,27 @@ class TextBox extends Component {
                     >
                         backlog
                     </button>
+                    <button
+                        onClick={this.toggleReturnModal}
+                    >
+                        exit
+                    </button>
                 </div>
                 {backlogVisible &&
-                    <div
-                        className={styles.backlogWrapper}
+                    <Backlog
                         onClick={this.toggleBacklog}
-                    >
-                        <Backlog
-                            backlogContent={backlogContent}
-                        />
-                    </div>
+                        backlogContent={backlogContent}
+                    />
+                }
+                {exitModalVisible &&
+                    <QuestionModal
+                        question="Do you want to go back to the main screen?"
+                        outerOnClick={this.disableClick}
+                        button1OnClick={this.toggleReturnModal}
+                        button1Text="No, stay"
+                        linkText="Yes, go back"
+                        to="/"
+                    />
                 }
             </main>
         );

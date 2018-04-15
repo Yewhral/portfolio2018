@@ -12,3 +12,15 @@
   margin: 0;
   list-style-type: none;
 }
+
+.backlogWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
