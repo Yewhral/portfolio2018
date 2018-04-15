@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Backlog from '../Backlog/Backlog';
+import QuestionModal from '../QuestionModal/QuestionModal';
 import styles from './TextBox.module.scss';
 
 class TextBox extends Component {
@@ -102,7 +102,7 @@ class TextBox extends Component {
                         outerOnClick={this.disableClick}
                         button1OnClick={this.toggleReturnModal}
                         button1Text="No, stay"
-                        LinkText="Yes, go back"
+                        linkText="Yes, go back"
                         to="/"
                     />
                 }
