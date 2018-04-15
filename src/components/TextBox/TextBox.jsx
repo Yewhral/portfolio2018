@@ -53,7 +53,7 @@ class TextBox extends Component {
         ));
 
         return (
-            <div className={styles.boxContainer}>
+            <main className={styles.boxContainer}>
                 <div className={styles.speechOwner}>
                     <img
                         className={styles.photo}
@@ -81,7 +81,7 @@ class TextBox extends Component {
                         />
                     </div>
                 }
-            </div>
+            </main>
         );
     }
 }
