@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Backlog from '../Backlog/Backlog';
+import GameNavigation from '../GameNavigation/GameNavigation';
 import QuestionModal from '../QuestionModal/QuestionModal';
 import styles from './TextBox.module.scss';
 
@@ -77,22 +78,12 @@ class TextBox extends Component {
                     <div className={styles.name}>{name}</div>
                 </div>
                 <div className={styles.speechContent}>
-                    <div>{text}</div>
+                    {text}
                 </div>
-                <div className={styles.navigation}>
-                    <button
-                        className={styles.navigationButton}
-                        onClick={this.toggleBacklog}
-                    >
-                        backlog
-                    </button>
-                    <button
-                        className={styles.navigationButton}
-                        onClick={this.toggleReturnModal}
-                    >
-                        exit
-                    </button>
-                </div>
+                <GameNavigation
+                    toggleBacklog={this.toggleBacklog}
+                    toggleReturnModal={this.toggleReturnModal}
+                />
                 {backlogVisible &&
                     <Backlog
                         onClick={this.toggleBacklog}

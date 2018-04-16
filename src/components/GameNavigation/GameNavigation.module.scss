@@ -1,0 +1,33 @@
+.navigation {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navigationButton {
+  cursor: pointer;
+  height: 35px;
+  color: white;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: white;
+  font-weight: 400;
+  box-sizing: border-box;
+  background: rgba(#d3d3d3,0.15);
+  padding: 0;
+  width: 105px;
+  font-size: 1.4rem;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 2px double;
+  letter-spacing: 1.5px;
+
+  &:hover {
+    color: black;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background: rgba(#FFC85F, 0.8);
+    border-bottom: 2px double white;
+  }
+}
