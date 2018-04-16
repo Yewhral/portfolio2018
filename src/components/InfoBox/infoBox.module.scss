@@ -18,8 +18,18 @@
   }
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) {
   .infoBox {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .infoBox {
+    margin: 90px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    min-width: 0;
   }
 }
