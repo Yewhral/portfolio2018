@@ -11,6 +11,17 @@
   display: flex;
   height: 100%;
   width: 100%;
+
+  &:hover {
+    .label {
+      background: #FFBE40;
+    }
+
+    .innerTriangle {
+      border-color: #FFBE40 transparent transparent #FFBE40;
+    }
+  }
+
 }
 
 .label {

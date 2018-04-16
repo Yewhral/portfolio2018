@@ -78,13 +78,16 @@ class TextBox extends Component {
                 </div>
                 <div className={styles.speechContent}>
                     <div>{text}</div>
+                </div>
+                <div className={styles.navigation}>
                     <button
-                        className={styles.navigation}
+                        className={styles.navigationButton}
                         onClick={this.toggleBacklog}
                     >
                         backlog
                     </button>
                     <button
+                        className={styles.navigationButton}
                         onClick={this.toggleReturnModal}
                     >
                         exit
