@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import ReactCSSTransitionReplace from 'react-css-transition-replace';
 import PropTypes from 'prop-types';
 import Backlog from '../Backlog/Backlog';
 import GameNavigation from '../GameNavigation/GameNavigation';
 import QuestionModal from '../QuestionModal/QuestionModal';
 import styles from './TextBox.module.scss';
+import './TextBox.scss';
 
 class TextBox extends Component {
     constructor(props) {
@@ -58,10 +60,7 @@ class TextBox extends Component {
         const { photo, name, text } = this.props.currentSpeech;
         const { backlog, backlogVisible, exitModalVisible } = this.state;
         const backlogContent = backlog.map(speech => (
-            <li
-                className={styles.backlogMessage}
-                key={speech.text}
-            >
+            <li key={speech.text}>
                 <span>{speech.name}</span>
                 <span>: {speech.text}</span>
             </li>
@@ -78,7 +77,15 @@ class TextBox extends Component {
                     <div className={styles.name}>{name}</div>
                 </div>
                 <div className={styles.speechContent}>
-                    {text}
+                <ReactCSSTransitionReplace
+                    transitionName="fade-wait"
+                    transitionEnterTimeout={600}
+                    transitionLeaveTimeout={400}
+                >
+                    <div key={text}>
+                        {text}
+                    </div>
+                </ReactCSSTransitionReplace>
                 </div>
                 <GameNavigation
                     toggleBacklog={this.toggleBacklog}
