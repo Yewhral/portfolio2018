@@ -13,9 +13,9 @@ class GameContent extends Component {
         this.state = {
             currentSpeech: {
                 id: 0,
-                text: 'zero',
-                name: 'imieee',
-                pic: '',
+                text: 'Hey! How to play this game? Click left button of your mouse to proceed.',
+                name: 'Michał',
+                photo: '',
                 background: '',
             },
             speeches: speechesData,
