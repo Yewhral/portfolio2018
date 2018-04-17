@@ -16,25 +16,25 @@ class AuthorInfoBox extends Component {
                     <ul>
                         <li>
                             <span>Most experience with: </span>
-                            <span className={styles.techStack}>Javascript ES6, React 16, HTML5, CSS3, SCSS, Grunt, Git</span>
+                            <span className={styles.standOut}>Javascript ES6, React 16, HTML5, CSS3, SCSS, Grunt, Git</span>
                         </li>
                         <li>
                             <span>Some experience with: </span>
-                            <span className={styles.techStack}>Ruby on Rails 5.1, Node.js, Redux, Mocha, Chai</span>
+                            <span className={styles.standOut}>Ruby on Rails 5.1, Node.js, Redux, Mocha, Chai</span>
                         </li>
                         <li>
                             <span>Basic knowledge of: </span>
-                            <span className={styles.techStack}>Vue, MongoDB, Jest, Jade, Gulp, Webpack, Bootstrap 4</span>
+                            <span className={styles.standOut}>Vue, MongoDB, Jest, Jade, Gulp, Webpack, Bootstrap 4</span>
                         </li>
                     </ul>
                 </section>
                 <section>
                     <h2>Contact</h2>
                     <p>
-                        Please use
-                        <span className={styles.address}> zabrzyjewski@gmail.com </span>
+                        <span>Please use</span>
+                        <span className={styles.standOut}> zabrzyjewski@gmail.com </span>
                         <span>or my </span>
-                        <a href="https://www.linkedin.com/in/zabrzyjewski/" className={styles.linkedIn}>linkedIn profile</a>
+                        <a href="https://www.linkedin.com/in/zabrzyjewski/" className={styles.link}>LinkedIn profile</a>
                         <span> to contact me</span>
                     </p>
                 </section>

@@ -7,7 +7,7 @@
   padding: 7% 5%;
   z-index: 1;
   min-width: 500px;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   max-width: 800px;
 
   ul {
@@ -45,9 +45,24 @@
   margin: 15px 0;
 }
 
-.techStack, .address {
+.standOut {
   font-weight: 400;
   font-size: 2rem;
+}
+
+.shotout {
+  width: 80%;
+  text-align: end;
+}
+
+.link {
+  color: #ff8c00;
+  font-weight: 400;
+  font-size: 2rem;
+
+  &:visited {
+    color: #B35C00;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
