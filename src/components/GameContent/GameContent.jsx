@@ -34,10 +34,12 @@ class GameContent extends Component {
             });
     }
 
-    showNextSpeech = () => {
+    showNextSpeech = (nextId) => {
       const { speeches, currentSpeech } = this.state;
       if (currentSpeech.id < speeches.length - 1) {
-          const nextSpeech = speeches[currentSpeech.id + 1];
+          const nextSpeech = speeches.find(function(speech) {
+              return speech.id === nextId;
+          });
           this.setState({
               currentSpeech: nextSpeech,
           });
@@ -49,7 +51,7 @@ class GameContent extends Component {
         return (
             <div
                 className={styles.gameContent}
-                onClick={this.showNextSpeech}
+                onClick={() => this.showNextSpeech(currentSpeech.nextId)}
             >
                 {loaderVisible &&
                     <GameLoader />

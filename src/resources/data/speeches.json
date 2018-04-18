@@ -4,76 +4,87 @@
     "text": "Hey! How to play this game? Click left button of your mouse to proceed.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 1
   },
   {
     "id": 1,
     "text": "From time to time you will be given options that will affect flow of the game.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523634192/asd/pixiv-fantasia-12.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523634192/asd/pixiv-fantasia-12.jpg",
+    "nextId": 2
   },
   {
     "id": 2,
     "text": "If you want to reread some dialogues please enter backlog.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 3
   },
   {
     "id": 3,
     "text": "Now, let's start the story!",
     "name": "Phone",
     "photo": "",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523634192/asd/pixiv-fantasia-12.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523634192/asd/pixiv-fantasia-12.jpg",
+    "nextId": 4
   },
   {
     "id": 4,
     "text": "Dzzt... Dzzzt...",
     "name": "Phone",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 5
   },
   {
     "id": 5,
     "text": "Hallo?",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 6
   },
   {
     "id": 6,
     "text": "You would like to",
     "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523634192/asd/pixiv-fantasia-12.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523634192/asd/pixiv-fantasia-12.jpg",
+    "nextId": 7
   },
   {
     "id": 7,
     "text": "siedem",
     "name": "dymek2",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 8
   },
   {
     "id": 8,
     "text": "siedem",
     "name": "dymek2",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 9
   },
   {
     "id": 9,
     "text": "siedem",
     "name": "dymek2",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 10
   },
   {
     "id": 10,
     "text": "siedem",
     "name": "dymek2",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg"
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 10
   }
 ]
