@@ -8,10 +8,11 @@
 .backlogList {
   height: 100%;
   overflow: auto;
-  padding: 0;
   margin: 0;
   list-style-type: none;
   font-size: 3.4rem;
+  padding: 30px 5%;
+  box-sizing: border-box;
 }
 
 .backlogWrapper {

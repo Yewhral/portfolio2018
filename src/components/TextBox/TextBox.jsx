@@ -41,7 +41,7 @@ class TextBox extends Component {
         const { photo, name, text } = this.props.currentSpeech;
         const { backlogVisible, exitModalVisible } = this.state;
         const backlogContent = backlog.map(speech => (
-            <li key={speech.text}>
+            <li key={speech.text} className={styles.backlogMessage}>
                 <span>{speech.name}</span>
                 <span>: {speech.text}</span>
             </li>
