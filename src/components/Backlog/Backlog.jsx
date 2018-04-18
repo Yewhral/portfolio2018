@@ -23,7 +23,7 @@ Backlog.defaultProps = {
 };
 
 Backlog.propTypes = {
-    backlogContent: PropTypes.Array,
+    backlogContent: PropTypes.array,
 };
 
 export default Backlog;

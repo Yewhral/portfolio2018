@@ -11,34 +11,14 @@ class TextBox extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            backlog: [],
             backlogVisible: false,
             exitModalVisible: false,
         };
     }
 
-    generateBacklog = () => {
-        let backlogData = [];
-        const { speeches, currentSpeech } = this.props;
-        for (let i = 0; i <= currentSpeech.id; i++) {
-            backlogData.push(
-                {
-                    text: speeches[i].text,
-                    name: speeches[i].name,
-                }
-            );
-        }
-        this.setState({
-            backlog: backlogData
-        });
-    };
-
     toggleBacklog = (e) => {
         e.stopPropagation();
         const {backlogVisible} = this.state;
-        if (backlogVisible !== true) {
-            this.generateBacklog();
-        }
         this.setState({
             backlogVisible: !backlogVisible,
         });
@@ -57,8 +37,9 @@ class TextBox extends Component {
     };
 
     render() {
+        const { backlog } = this.props;
         const { photo, name, text } = this.props.currentSpeech;
-        const { backlog, backlogVisible, exitModalVisible } = this.state;
+        const { backlogVisible, exitModalVisible } = this.state;
         const backlogContent = backlog.map(speech => (
             <li key={speech.text}>
                 <span>{speech.name}</span>

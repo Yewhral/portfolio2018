@@ -20,6 +20,10 @@ class GameContent extends Component {
             },
             speeches: speechesData,
             loaderVisible: true,
+            backlog: [{
+                name: 'Michał',
+                text: 'Hey! How to play this game? Click left button of your mouse to proceed.',
+            }],
         };
     }
 
@@ -37,17 +41,30 @@ class GameContent extends Component {
     showNextSpeech = (nextId) => {
       const { speeches, currentSpeech } = this.state;
       if (currentSpeech.id < speeches.length - 1) {
-          const nextSpeech = speeches.find(function(speech) {
+          this.updateBacklog(currentSpeech);
+          const nextSpeech = speeches.find((speech) => {
               return speech.id === nextId;
           });
           this.setState({
               currentSpeech: nextSpeech,
           });
+          this.updateBacklog(nextSpeech);
       }
     };
 
+    updateBacklog = (speech) => {
+        this.setState({
+            backlog: [
+                ...this.state.backlog,
+                {
+                    text: speech.text,
+                    name: speech.name,
+                }],
+        });
+    };
+
     render() {
-        const { currentSpeech, speeches, loaderVisible } = this.state;
+        const { currentSpeech, speeches, loaderVisible, backlog } = this.state;
         return (
             <div
                 className={styles.gameContent}
@@ -62,6 +79,7 @@ class GameContent extends Component {
                 <TextBox
                     currentSpeech={currentSpeech}
                     speeches={speeches}
+                    backlog={backlog}
                 />
             </div>
         );
