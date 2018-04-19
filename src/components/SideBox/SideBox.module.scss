@@ -27,6 +27,7 @@
 @media only screen and (max-width: 768px) {
   .sideBox {
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
   }
 }

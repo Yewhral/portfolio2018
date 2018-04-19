@@ -78,5 +78,19 @@
     padding-top: 30px;
     padding-bottom: 30px;
     min-width: 0;
+    font-size: 1.6rem;
+
+    section {
+      font-size: 1.6rem;
+    }
+
+    h1, h2 {
+      font-size: 2.2rem;
+    }
   }
+
+  .standOut, .link {
+    font-size: 1.8rem;
+  }
+
 }
