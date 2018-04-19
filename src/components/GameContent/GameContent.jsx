@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import prefetchImages from 'prefetch-image';
 import GameBackground from '../GameBackground/GameBackground';
 import GameLoader from '../Loader/GameLoader';
+import QuestionModal from '../QuestionModal/QuestionModal';
 import TextBox from '../TextBox/TextBox';
 import speechesData from '../../resources/data/speeches.json';
 import allImages from '../../resources/data/images';
@@ -66,21 +67,32 @@ class GameContent extends Component {
     render() {
         const { currentSpeech, speeches, loaderVisible, backlog } = this.state;
         return (
-            <div
-                className={styles.gameContent}
-                onClick={() => this.showNextSpeech(currentSpeech.nextId)}
-            >
+            <div>
+                <div
+                    className={styles.gameContent}
+                    onClick={() => this.showNextSpeech(currentSpeech.nextId)}
+                >
+                    <GameBackground
+                        background={currentSpeech.background}
+                    />
+                    <TextBox
+                        currentSpeech={currentSpeech}
+                        speeches={speeches}
+                        backlog={backlog}
+                    />
+                </div>
                 {loaderVisible &&
-                    <GameLoader />
+                <GameLoader />
                 }
-                <GameBackground
-                    background={currentSpeech.background}
+                {currentSpeech.question &&
+                <QuestionModal
+                    question="Ask about"
+                    button1Text={currentSpeech.question1}
+                    button2Text={currentSpeech.question2}
+                    button1OnClick={() => {this.showNextSpeech(currentSpeech.answer1)}}
+                    button2OnClick={() => {this.showNextSpeech(currentSpeech.answer2)}}
                 />
-                <TextBox
-                    currentSpeech={currentSpeech}
-                    speeches={speeches}
-                    backlog={backlog}
-                />
+                }
             </div>
         );
     }

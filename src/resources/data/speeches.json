@@ -81,10 +81,56 @@
   },
   {
     "id": 10,
-    "text": "last",
-    "name": "last",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
-    "nextId": 10
+    "text": "question text",
+    "name": "pytanie",
+    "question1": "odpowiedz A",
+    "question2": "odpowiedz B",
+    "answer1": 11,
+    "answer2": 12,
+    "question": true
+  },
+  {
+    "id": 11,
+    "text": "odpowiedz A",
+    "name": "odpowiedzA",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 13,
+    "question": false
+  },
+  {
+    "id": 12,
+    "text": "odpowiedz B",
+    "name": "odpowiedz B",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 13
+  },
+  {
+    "id": 13,
+    "text": "punkt powrotny",
+    "name": "oye",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 14,
+    "question": false
+  },
+  {
+    "id": 14,
+    "text": "lecim dalej",
+    "name": "sofarsogood",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 15
+  },
+  {
+    "id": 15,
+    "text": "koniec",
+    "name": "ostatnidymek",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 15
   }
 ]
