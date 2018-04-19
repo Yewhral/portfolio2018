@@ -41,7 +41,7 @@ class GameContent extends Component {
 
     showNextSpeech = (nextId) => {
       const { speeches, currentSpeech } = this.state;
-      if (currentSpeech.id < speeches.length - 1) {
+      if (currentSpeech.id < speeches.length - 1) { // TODO remake condition
           this.updateBacklog(currentSpeech);
           const nextSpeech = speeches.find((speech) => {
               return speech.id === nextId;
