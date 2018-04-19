@@ -1,5 +1,3 @@
-// TODO use this as a generic component to pass {link} and two buttons
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
