@@ -195,10 +195,251 @@
   },
   {
     "id": 24,
-    "text": "Temporary end",
-    "name": "Placeholder",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
-    "nextId": 24
+    "text": "Tell me about...",
+    "name": "Recruiter",
+    "question1": "Your interest in new technologies",
+    "question2": "Future career plans",
+    "answer1": 25,
+    "answer2": 28,
+    "question": true
+  },
+  {
+    "id": 25,
+    "text": "Are you interested in learning any new technologies?",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 26
+  },
+  {
+    "id": 26,
+    "text": "Sure! The more I know the better I feel. If I could I would learn them all!",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 27
+  },
+  {
+
+    "id": 27,
+    "text": ".Net, React Native, Python or new frontend frameworks, IT world is fascinating, I'd lke to discover it more!",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 31
+  },
+  {
+    "id": 28,
+    "text": "Where do you see yourself in 5-10 years?",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 29
+  },
+  {
+    "id": 29,
+    "text": "In the future I would like to work in a team with frontend masters, backend magicians and dedicated UX designers.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 30
+  },
+  {
+    "id": 30,
+    "text": "Hopefully I could be a team leader of such a team.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 31
+  },
+  {
+    "id": 31,
+    "text": "Okay, thank you Mr. Zabrzyjewski",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 32
+  },
+  {
+    "id": 32,
+    "text": "We have seen your code and your passion, your English is fine..",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 33
+  },
+  {
+    "id": 33,
+    "text": "We will let you know about our decision soon.",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 34
+  },
+  {
+    "id": 34,
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "text": "Hire Mr. Zabrzyjewski?",
+    "name": "Recruiter",
+    "question1": "Yes, we want Michał",
+    "question2": "Nah, someone else.",
+    "answer1": 35,
+    "answer2": 42,
+    "question": true
+  },
+  {
+    "id": 35,
+    "text": "** GOOD ENDING **",
+    "name": "",
+    "photo": "",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 36
+  },
+  {
+    "id": 36,
+    "text": "How's the project going?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 37
+  },
+  {
+    "id": 37,
+    "text": "Good, no delays.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 38
+  },
+  {
+    "id": 38,
+    "text": "Ok. How do you like working here?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 39
+  },
+  {
+    "id": 39,
+    "text": "I like it here, thank you for giving me a chance.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 40
+  },
+  {
+    "id": 40,
+    "text": "Together we can work on cooler products and reach even more customers.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 41
+  },
+  {
+    "id": 41,
+    "text": "Yes, I'm also happy to have hired you Mr Zabrzyjewski.",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 50
+  },
+  {
+    "id": 42,
+    "text": "** BAD ENDING **",
+    "name": "",
+    "photo": "",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 43
+  },
+  {
+    "id": 43,
+    "text": "Hey, why we still don't have anyone for this opened position?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 44
+  },
+  {
+    "id": 44,
+    "text": "I'm sorry boss. We're still looking.",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 45
+  },
+  {
+    "id": 45,
+    "text": "Whas there anything wrong with Mr Zabrzyjewski?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 46
+  },
+  {
+    "id": 46,
+    "text": "He was our best candidate.",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 47
+  },
+  {
+    "id": 47,
+    "text": "There was nothing wrong. We simply decided to look for someone with more experience...",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 48
+  },
+  {
+    "id": 48,
+    "text": "Call him now, maybe he didn't find a new job yet.",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 49
+  },
+  {
+    "id": 49,
+    "text": "Yes sir!",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 50
+  },
+  {
+    "id": 50,
+    "text": "And this ends my short story.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 51
+  },
+  {
+    "id": 51,
+    "text": "Thank you for reading it, drop me a line if you want to know more.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 52
+  },
+  {
+    "id": 52,
+    "text": "zabrzyjewski@gmail.com is waiting for your message!",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 53
+  },
+  {
+    "id": 53,
+    "text": "** THE END **",
+    "name": "",
+    "photo": "",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1523628051/donana-3287939_1920_yghr3a.jpg",
+    "nextId": 53
   }
 ]
