@@ -95,7 +95,7 @@
   },
   {
     "id": 12,
-    "text": "Can you sum up your current experience in few sentences?",
+    "text": "Can you sum up your current experience in a few sentences?",
     "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
@@ -127,75 +127,83 @@
   },
   {
     "id": 16,
+    "text": "Thank you Mr Zabrzyjewski.",
+    "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "text": "I want to ask you about...",
+    "nextId": 17
+  },
+  {
+    "id": 17,
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
+    "text": "Next I want to ask about...",
     "name": "Recruiter",
     "question1": "Reason to start programming",
     "question2": "Interest in frontend",
     "questionText": "Ask about...",
-    "answer1": 17,
-    "answer2": 20,
+    "answer1": 18,
+    "answer2": 21,
     "question": true
   },
   {
-    "id": 17,
+    "id": 18,
     "text": "Why did you decide to start programming?",
     "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 18
-  },
-  {
-    "id": 18,
-    "text": "Before I started high school I bought a book about C++, then I attended additional IT classes.",
-    "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 19
   },
   {
     "id": 19,
+    "text": "Before I started high school I bought a book about C++, then I attended additional IT classes.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
+    "nextId": 20
+  },
+  {
+    "id": 20,
     "text": "During my studies I also has some programming subjects, and after finishing them I reignited my passion for coding.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 23
-  },
-  {
-    "id": 20,
-    "text": "Why did you choose frontend development?",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 21
+    "nextId": 24
   },
   {
     "id": 21,
-    "text": "In my youth I really liked creating art, I was even considering a graphic designer career.",
-    "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
+    "text": "Why did you choose frontend development?",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 22
   },
   {
     "id": 22,
-    "text": "Digital paintings had been fun and frontend also has an artistic touch to it.",
+    "text": "In my youth I really liked creating art, I was even considering a graphic designer career.",
     "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 23
   },
   {
     "id": 23,
-    "text": "Okay, onto the next question.",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "text": "Digital paintings had been fun and frontend also has an artistic touch to it.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 24
   },
   {
     "id": 24,
+    "text": "Okay, onto the next question.",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
+    "nextId": 25
+  },
+  {
+    "id": 25,
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "text": "Tell me about...",
@@ -203,85 +211,85 @@
     "questionText": "Ask about...",
     "question1": "Interest in new technologies",
     "question2": "Future career plans",
-    "answer1": 25,
-    "answer2": 28,
+    "answer1": 26,
+    "answer2": 29,
     "question": true
   },
   {
-    "id": 25,
+    "id": 26,
     "text": "Are you interested in learning any new technologies?",
     "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 26
+    "nextId": 27
   },
   {
-    "id": 26,
+    "id": 27,
     "text": "Sure! The more I know the better I feel. If I could I would learn them all!",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 27
+    "nextId": 28
   },
   {
 
-    "id": 27,
+    "id": 28,
     "text": "React Native, .Net, Python or new frontend frameworks, IT world is fascinating, I'd lke to discover it more!",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 31
-  },
-  {
-    "id": 28,
-    "text": "Where do you see yourself in 5-10 years?",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
-    "nextId": 29
+    "nextId": 32
   },
   {
     "id": 29,
-    "text": "In the future I would like to work in a team with frontend masters, backend magicians and dedicated UX designers.",
-    "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
+    "text": "Where do you see yourself in 5-10 years?",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 30
   },
   {
     "id": 30,
-    "text": "Hopefully I could be a team leader of such a team.",
+    "text": "In the future I would like to work in a team with frontend masters, backend magicians and dedicated UX designers.",
     "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 31
   },
   {
     "id": 31,
-    "text": "Okay, thank you Mr. Zabrzyjewski",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "text": "Hopefully I could be a team leader of such a team.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 32
   },
   {
     "id": 32,
-    "text": "We have seen your code and your passion, your English is fine..",
+    "text": "Okay, thank you Mr. Zabrzyjewski",
     "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 33
   },
   {
     "id": 33,
-    "text": "We will let you know about our decision soon.",
+    "text": "We have seen your code and your passion, your English is fine..",
     "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "nextId": 34
   },
   {
     "id": 34,
+    "text": "We will let you know about our decision soon.",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
+    "nextId": 35
+  },
+  {
+    "id": 35,
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/chapter1q60_heugpm.jpg",
     "text": "Hire Mr. Zabrzyjewski?",
@@ -289,53 +297,45 @@
     "questionText": "Decide!",
     "question1": "Yes, we want Michał",
     "question2": "Nah, someone else.",
-    "answer1": 35,
-    "answer2": 42,
+    "answer1": 36,
+    "answer2": 43,
     "question": true
   },
   {
-    "id": 35,
+    "id": 36,
     "text": "** GOOD ENDING **",
     "name": "",
     "photo": "",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
-    "nextId": 36
-  },
-  {
-    "id": 36,
-    "text": "How's the project going?",
-    "name": "CTO",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
     "nextId": 37
   },
   {
     "id": 37,
-    "text": "Good, no delays.",
-    "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me0_m7bdk1.svg",
+    "text": "How's the project going?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
     "nextId": 38
   },
   {
     "id": 38,
-    "text": "Ok. How do you like working here?",
-    "name": "CTO",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
+    "text": "Good, no delays.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me0_m7bdk1.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
     "nextId": 39
   },
   {
     "id": 39,
-    "text": "I like it here, thank you for giving me a chance.",
-    "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me0_m7bdk1.svg",
+    "text": "Ok. How do you like working here?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
     "nextId": 40
   },
   {
     "id": 40,
-    "text": "Together we can work on cooler products and reach even more customers.",
+    "text": "I like it here, thank you for giving me a chance.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me0_m7bdk1.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
@@ -343,47 +343,47 @@
   },
   {
     "id": 41,
+    "text": "Together we can work on cooler products and reach even more customers.",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me0_m7bdk1.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
+    "nextId": 42
+  },
+  {
+    "id": 42,
     "text": "Yes, I'm also happy to have hired you Mr Zabrzyjewski.",
     "name": "CTO",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/officeApple_xym7hp.jpg",
-    "nextId": 50
-  },
-  {
-    "id": 42,
-    "text": "** BAD ENDING **",
-    "name": "",
-    "photo": "",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
-    "nextId": 43
+    "nextId": 51
   },
   {
     "id": 43,
-    "text": "Hey, why we still don't have anyone for this opened position?",
-    "name": "CTO",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
+    "text": "** BAD ENDING **",
+    "name": "",
+    "photo": "",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 44
   },
   {
     "id": 44,
-    "text": "I'm sorry boss. We're still looking.",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "text": "Hey, why we still don't have anyone for this opened position?",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 45
   },
   {
     "id": 45,
-    "text": "Was there anything wrong with Mr Zabrzyjewski?",
-    "name": "CTO",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
+    "text": "I'm sorry boss. We're still looking.",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 46
   },
   {
     "id": 46,
-    "text": "He was our best candidate.",
+    "text": "Was there anything wrong with Mr Zabrzyjewski?",
     "name": "CTO",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
@@ -391,54 +391,62 @@
   },
   {
     "id": 47,
-    "text": "There was nothing wrong. We simply decided to look for someone with more experience...",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
+    "text": "He was our best candidate.",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 48
   },
   {
     "id": 48,
-    "text": "Call him now, maybe he didn't find a new job yet.",
-    "name": "CTO",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg",
+    "text": "There was nothing wrong. We simply decided to look for someone with more experience...",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 49
   },
   {
     "id": 49,
-    "text": "Yes sir!",
-    "name": "Recruiter",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
+    "text": "Call him now, maybe he didn't find a new job yet.",
+    "name": "CTO",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M2_xv90cn.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 50
   },
   {
     "id": 50,
-    "text": "And this ends my short story.",
-    "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221944/city_csft5b.jpg",
+    "text": "Yes sir!",
+    "name": "Recruiter",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 51
   },
   {
     "id": 51,
-    "text": "Thank you for reading it, drop me a line if you want to know more.",
+    "text": "And this ends my short story.",
     "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221944/city_csft5b.jpg",
     "nextId": 52
   },
   {
     "id": 52,
-    "text": "zabrzyjewski@gmail.com is waiting for your message!",
+    "text": "Thank you for reading it, drop me a line if you want to know more.",
     "name": "Michał",
-    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221944/city_csft5b.jpg",
     "nextId": 53
   },
   {
     "id": 53,
+    "text": "zabrzyjewski@gmail.com is waiting for your message!",
+    "name": "Michał",
+    "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221944/city_csft5b.jpg",
+    "nextId": 54
+  },
+  {
+    "id": 54,
     "text": "** THE END **",
     "name": "",
     "photo": "",

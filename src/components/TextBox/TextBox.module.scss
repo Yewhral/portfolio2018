@@ -51,3 +51,64 @@
   box-sizing: content-box;
 }
 
+@media only screen and (max-width: 1024px) {
+  .speechContent {
+    width: calc(100% - 250px);
+    font-size: 3.2rem;
+  }
+
+  .speechOwner {
+    width: 250px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .boxContainer {
+    bottom: auto;
+    flex-direction: column;
+    overflow: auto;
+    top: 3%;
+    left: 1%;
+    width: 98%;
+    height: 94%;
+    box-sizing: border-box;
+  }
+
+  .speechOwner {
+    width: 150px;
+    height: auto;
+  }
+
+  .photo {
+    display: none;
+  }
+
+  .name {
+    border-top: none;
+    border-bottom: 3px double #ffffff;
+    height: 45px;
+    font-size: 2.6rem;
+  }
+
+  .speechContent {
+    padding-top: 20px;
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .speechOwner {
+    width: 100px;
+  }
+  .name {
+    font-size: 2.4rem;
+    height: 41px;
+  }
+
+  .speechContent {
+    font-size: 3rem;
+  }
+
+}
