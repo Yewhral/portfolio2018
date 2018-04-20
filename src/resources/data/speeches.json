@@ -232,7 +232,6 @@
     "nextId": 28
   },
   {
-
     "id": 28,
     "text": "React Native, .Net, Python or new frontend frameworks, IT world is fascinating, I'd lke to discover it more!",
     "name": "Michał",
@@ -451,6 +450,6 @@
     "name": "",
     "photo": "",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221944/city_csft5b.jpg",
-    "nextId": 53
+    "nextId": 54
   }
 ]
