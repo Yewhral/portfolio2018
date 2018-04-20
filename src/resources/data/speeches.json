@@ -201,7 +201,7 @@
     "text": "Tell me about...",
     "name": "Recruiter",
     "questionText": "Ask about...",
-    "question1": "Your interest in new technologies",
+    "question1": "Interest in new technologies",
     "question2": "Future career plans",
     "answer1": 25,
     "answer2": 28,
@@ -354,7 +354,7 @@
     "text": "** BAD ENDING **",
     "name": "",
     "photo": "",
-    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221944/city_csft5b.jpg",
+    "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",
     "nextId": 43
   },
   {
@@ -375,7 +375,7 @@
   },
   {
     "id": 45,
-    "text": "Whas there anything wrong with Mr Zabrzyjewski?",
+    "text": "Was there anything wrong with Mr Zabrzyjewski?",
     "name": "CTO",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/M1_hkyuut.svg",
     "background": "http://res.cloudinary.com/doethe/image/upload/v1524221943/badEnd_enk0ji.jpg",

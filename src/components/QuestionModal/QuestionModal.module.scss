@@ -8,6 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
+  font-weight: 600;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  user-select: none;
 }
 
 .questionBox {
