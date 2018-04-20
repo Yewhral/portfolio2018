@@ -41,7 +41,7 @@ class GameContent extends Component {
 
     showNextSpeech = (nextId) => {
       const { speeches, currentSpeech } = this.state;
-      if (currentSpeech.id < speeches.length - 1) { // TODO remake condition
+      if (currentSpeech.id < speeches.length - 1) {
           this.updateBacklog(currentSpeech);
           const nextSpeech = speeches.find((speech) => {
               return speech.id === nextId;
@@ -86,7 +86,7 @@ class GameContent extends Component {
                 }
                 {currentSpeech.question &&
                 <QuestionModal
-                    question="Ask about"
+                    question={currentSpeech.questionText}
                     button1Text={currentSpeech.question1}
                     button2Text={currentSpeech.question2}
                     button1OnClick={() => {this.showNextSpeech(currentSpeech.answer1)}}
