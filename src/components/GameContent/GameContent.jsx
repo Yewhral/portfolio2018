@@ -25,6 +25,7 @@ class GameContent extends Component {
                 name: 'Michał',
                 text: 'Hey! How to play this game? Click left button of your mouse to proceed.',
             }],
+            allImages,
         };
     }
 
@@ -65,7 +66,7 @@ class GameContent extends Component {
     };
 
     render() {
-        const { currentSpeech, speeches, loaderVisible, backlog } = this.state;
+        const { currentSpeech, speeches, loaderVisible, backlog, allImages } = this.state;
         return (
             <div>
                 <div
@@ -73,7 +74,7 @@ class GameContent extends Component {
                     onClick={() => this.showNextSpeech(currentSpeech.nextId)}
                 >
                     <GameBackground
-                        background={currentSpeech.background}
+                        background={allImages[currentSpeech.background]}
                     />
                     <TextBox
                         currentSpeech={currentSpeech}
