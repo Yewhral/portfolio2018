@@ -30,9 +30,8 @@
   margin-bottom: 20px;
 }
 
-.button {
+.button, .button:visited {
   font-size: 2rem;
-  font-weight: bold;
   background: transparent;
   border: 2px solid white;
   cursor: pointer;
@@ -42,6 +41,12 @@
   align-items: center;
   text-decoration: none;
   margin: 10px 0;
+  color: #ffffff;
+  font-weight: 600;
+  -webkit-text-fill-color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  user-select: none;
 
   &:hover {
     background: rgba(#FFC85F, 0.8);

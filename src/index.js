@@ -4,6 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Routes from './views/Routes/Routes';
 import registerServiceWorker from './services/registerServiceWorker';
 import './resources/styles/index.scss';
+import './polyfills/ArrayFind';
 
 ReactDOM.render((
     <BrowserRouter>
