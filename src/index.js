@@ -1,10 +1,13 @@
+import 'core-js/es6/map';
+import 'core-js/es6/set';
+import 'core-js/es6/array';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import Routes from './views/Routes/Routes';
 import registerServiceWorker from './services/registerServiceWorker';
 import './resources/styles/index.scss';
-import './polyfills/ArrayFind';
 
 ReactDOM.render((
     <BrowserRouter>
