@@ -11,5 +11,6 @@ I took a chance and added links to my other projects so you can also go there an
 Current state of my project: * Up and running! Yahoo! *
 
  To do:
+- Consider separating components and containers
 - Write more tests
 - Consider new features (save/load based on localStorage, backlog scrolling)

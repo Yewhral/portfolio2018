@@ -15,13 +15,13 @@ class ProjectInfoBox extends Component {
                 <p>This project is a very short visual novel in which I will tell you more about my working experience and programming skills.</p>
                 <p>Completing it won't take you more than 5 minutes and it should answer most of your questions.</p>
                 <p>
-                    <span className={styles.standOut}>I'd like to invite you </span>
-                    <span>to </span>
-                    <Link to="/game" className={styles.link}>start with reading it</Link>
-                    <span> and then </span>
-                    <span className={styles.standOut}>please check out </span>
+                    <span className={styles.standOut}>I'd recommend </span>
+                    <Link to="/game" className={styles.link}>reading the game first</Link>
+                    <span>, and then </span>
+                    <span className={styles.standOut}>checking out </span>
                     <Link to="/portfolio" className={styles.link}>my other projects.</Link>
                 </p>
+                <p><span className={styles.standOut}>Have fun!</span></p>
             </main>
         );
     }

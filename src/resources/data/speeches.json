@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "text": "Hey! How to play this game? Click left button of your mouse to proceed.",
+    "text": "Hey! How to play this game? Click the left mouse button/tap the screen to proceed.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": 7,
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "text": "If you want to reread some dialogues please enter backlog.",
+    "text": "If you want to re-read some dialogues, please enter \"backlog\".",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": 7,
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "text": "Hallo?",
+    "text": "Hello?",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": 8,
@@ -111,7 +111,7 @@
   },
   {
     "id": 14,
-    "text": "I also had a chance to touch different backend technologies like Ruby on Rails or Node.js",
+    "text": "I also had a chance to touch different backend technologies like Ruby on Rails or Node.js.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": 9,
@@ -137,7 +137,7 @@
     "id": 17,
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": 9,
-    "text": "Next I want to ask about...",
+    "text": "Next, I want to ask about...",
     "name": "Recruiter",
     "question1": "Reason to start programming",
     "question2": "Interest in frontend",
@@ -164,7 +164,7 @@
   },
   {
     "id": 20,
-    "text": "During my studies I also has some programming subjects, and after finishing them I reignited my passion for coding.",
+    "text": "During my studies I also had some programming subjects, and after finishing them I reignited my passion for coding.",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": 9,
@@ -225,7 +225,7 @@
   },
   {
     "id": 27,
-    "text": "Sure! The more I know the better I feel. If I could I would learn them all!",
+    "text": "Sure! The more I know, the better I feel. If I could I would learn them all!",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/me1_ydlwzh.svg",
     "background": 9,
@@ -233,7 +233,7 @@
   },
   {
     "id": 28,
-    "text": "React Native, .Net, Python or new frontend frameworks, IT world is fascinating, I'd lke to discover it more!",
+    "text": "React Native, .Net, Python or new frontend frameworks, IT world is fascinating, I'd like to discover it more!",
     "name": "Michał",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625858/me2_a98aak.svg",
     "background": 9,
@@ -265,7 +265,7 @@
   },
   {
     "id": 32,
-    "text": "Okay, thank you Mr. Zabrzyjewski",
+    "text": "Okay, thank you Mr. Zabrzyjewski.",
     "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F2_cxliey.svg",
     "background": 9,
@@ -273,7 +273,7 @@
   },
   {
     "id": 33,
-    "text": "We have seen your code and your passion, your English is fine..",
+    "text": "We have seen your code and your passion, your English is fine...",
     "name": "Recruiter",
     "photo": "http://res.cloudinary.com/doethe/image/upload/v1523625854/F1_h7gabo.svg",
     "background": 9,
