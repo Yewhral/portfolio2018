@@ -9,7 +9,7 @@ class MenuDescription extends Component {
                     JavaScript developer
                 </h2>
                 <div className={styles.description}>
-                    description lorem ipsum dolor sit amet wololo description lorem ipsum amet dolor sit
+                    When you're looking for someone who thinks life is amazing and coding is fun!
                 </div>
             </div>
         );

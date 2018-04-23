@@ -11,8 +11,5 @@ I took a chance and added links to my other projects so you can also go there an
 Current state of my project: * Up and running! Yahoo! *
 
  To do:
-- Remember to get rid of lorem ipsum
 - Write more tests
-- Consider new features (save/load based on localStorage)
-- Fill readme with tech stack
-- Deploy to a nice domain
+- Consider new features (save/load based on localStorage, backlog scrolling)

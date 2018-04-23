@@ -1,6 +1,6 @@
 {
-  "name": "port2018",
-  "version": "0.1.0",
+  "name": "portfolio2018",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.5",

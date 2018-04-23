@@ -31,3 +31,9 @@
     border-bottom: 2px double white;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .navigationButton {
+    width: 85px;
+  }
+}
