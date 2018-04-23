@@ -17,7 +17,7 @@ class ProjectInfoBox extends Component {
                 <p>
                     <span className={styles.standOut}>I'd recommend </span>
                     <Link to="/game" className={styles.link}>reading the game first</Link>
-                    <span>, and then </span>
+                    <span> and then </span>
                     <span className={styles.standOut}>checking out </span>
                     <Link to="/portfolio" className={styles.link}>my other projects.</Link>
                 </p>

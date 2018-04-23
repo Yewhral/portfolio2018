@@ -14,7 +14,7 @@ class GameContent extends Component {
         this.state = {
             currentSpeech: {
                 id: 0,
-                text: 'Hey! How to play this game? Click left button of your mouse to proceed.',
+                text: 'Hey! How to play this game? Click the left mouse button/tap the screen to proceed.',
                 name: 'Michał',
                 photo: '',
                 background: '',
@@ -23,7 +23,7 @@ class GameContent extends Component {
             loaderVisible: true,
             backlog: [{
                 name: 'Michał',
-                text: 'Hey! How to play this game? Click left button of your mouse to proceed.',
+                text: 'Hey! How to play this game? Click the left mouse button/tap the screen to proceed.',
             }],
             allImages,
         };
